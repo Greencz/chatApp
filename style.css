@@ -1,0 +1,117 @@
+body{
+  background: #16a085;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.chat_box,.msg_box{
+  position:fixed;
+  right: 20px;
+  bottom: 0px;
+  background: white;
+  width: 250px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.chat_head,.msg_head{
+  background: #2ecc71;
+  padding: 15px;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.chat_body{
+  height:400px;
+}
+
+.msg_head{
+  background: #27ae60;
+}
+
+.msg_body{
+    height:350px;
+}
+
+.msg_input{
+  border:transparent;
+  border-top:1px solid #bdc3c7;
+  width: 100%;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+.msg_box{
+  background: white;
+  width:250px;
+  bottom:-5px;
+}
+
+.close{
+  float:right;
+}
+
+.user{
+  padding: 20px;
+  position:relative;
+}
+.user:hover{
+  background:#bdc3c7;
+}
+.user:before{
+  content:"";
+  position:absolute;
+  background:#2ecc71;
+  border-radius: 5px;
+  width:10px;
+  height:10px;
+  left:5px;
+  top:23px;
+}
+
+.msg_a{
+  display: table;
+  margin-left:10px;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-right:10px;
+  padding: 15px;
+  background: #e9d460;
+  border-radius: 5px;
+  position: relative;
+}
+
+.msg_a:before{
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border: 10px solid;
+  top: 7px;
+  left: -20px;
+  border-color: transparent #e9d460 transparent transparent;
+}
+
+.msg_b{
+  right: -100px;
+  display: table;
+  text-align: right;
+  margin-right:10px;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:10px;
+  padding: 15px;
+  background: #66cc99;
+  border-radius: 5px;
+  position: relative;
+}
+.msg_b:before{
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border: 10px solid;
+  top: 7px;
+  right: -20px;
+  border-color: transparent transparent transparent #66cc99;
+}
