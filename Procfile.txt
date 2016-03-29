@@ -1,2 +1,2 @@
-web:node server
-web:static
+web: node server.js
+web: static

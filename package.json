@@ -1,6 +1,10 @@
 {
    "name": "webrtc-videochat",
    "version": "0.1.0",
+   "main":"server.js",
+   "scripts":{
+   "start":"node server.js"
+   },
    "description": "webrtc-videochat",
    "author": "Author",
    "license": "BSD-2-Clause"
