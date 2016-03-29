@@ -4,7 +4,7 @@
    "main":"server.js",
    "scripts":{
    "start":"static"
-   "start":"node server.js"
+
    },
    "description": "webrtc-videochat",
    "author": "Author",
