@@ -3,7 +3,8 @@
    "version": "0.1.0",
    "main":"server.js",
    "scripts":{
-   "start":"static"
+   "test":"static",
+   "start":"node server.js"
 
    },
    "description": "webrtc-videochat",
